@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Briceño Mora</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="home">
+      <video id="riverVideo" autoplay loop muted>
+        <source src="media/river_360p.mp4" media="(max-width: 360px)" />
+        <source
+          src="media/river_720p.mp4"
+          media="(min-width: 361px) and (max-width: 720px)"
+        />
+        <source
+          src="media/river_1080p.mp4"
+          media="(min-width: 721px) and (max-width: 1080px)"
+        />
+        <source src="media/river_1920p.mp4" media="(min-width: 1081px)" />
+      </video>
+
+      <video id="christmasVideo" autoplay loop muted>
+        <source src="media/christmas_360p.mp4" media="(max-width: 360px)" />
+        <source
+          src="media/christmas_720p.mp4"
+          media="(min-width: 361px) and (max-width: 720px)"
+        />
+        <source
+          src="media/christmas_1080p.mp4"
+          media="(min-width: 721px) and (max-width: 1080px)"
+        />
+        <source
+          src="media/christmas_vertical.mp4"
+          media="(orientation: portrait)"
+        />
+      </video>
+    </div>
+
+    <script src="assets/js/index.js" type="module"></script>
+  </body>
+</html>
