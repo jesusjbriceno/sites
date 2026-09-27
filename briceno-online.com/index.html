@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesús J. Briceño</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="home">
+      <video id="riverVideo" autoplay loop muted>
+        <source src="media/river_360p.mp4" media="(max-width: 360px)" />
+        <source
+          src="media/river_720p.mp4"
+          media="(min-width: 361px) and (max-width: 720px)"
+        />
+        <source
+          src="media/river_1080p.mp4"
+          media="(min-width: 721px) and (max-width: 1080px)"
+        />
+        <source src="media/river_1920p.mp4" media="(min-width: 1081px)" />
+      </video>
+
+      <video id="techVideo" autoplay loop muted>
+        <!-- <source src="media/tech_360p.mp4" media="(max-width: 360px)" /> -->
+        <source
+          src="media/tech_720p.mp4"
+          media="(min-width: 461px) and (max-width: 720px)"
+        />
+        <source
+          src="media/tech_1080p.mp4"
+          media="(min-width: 721px) and (max-width: 1080px)"
+        />
+        <source src="media/tech_vertical.mp4" media="(max-width: 460px)" />
+      </video>
+
+      <video id="coffeeVideo" autoplay loop muted>
+        <!-- <source src="media/coffee_360p.mp4" media="(max-width: 360px)" /> -->
+        <source
+          src="media/coffee_720p.mp4"
+          media="(min-width: 461px) and (max-width: 720px)"
+        />
+        <source
+          src="media/coffee_1080p.mp4"
+          media="(min-width: 721px) and (max-width: 1080px)"
+        />
+        <source src="media/coffee_vertical.mp4" media="(max-width: 460px)" />
+      </video>
+    </div>
+
+    <script src="assets/js/index.js" type="module"></script>
+  </body>
+</html>
