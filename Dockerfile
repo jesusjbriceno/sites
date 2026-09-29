@@ -8,6 +8,7 @@ COPY docker/conf.d/ /etc/nginx/conf.d/
 # Un COPY por sitio: explicito, para que anadir un sitio sea una linea visible.
 COPY briceno-mora.es/ /sites/briceno-mora.es/
 COPY briceno-online.com/ /sites/briceno-online.com/
+COPY jesusjbriceno.es/ /sites/jesusjbriceno.es/
 
 EXPOSE 80
 
